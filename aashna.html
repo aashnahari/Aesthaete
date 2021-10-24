@@ -14,7 +14,13 @@
    <script>
       
       function chBackcolor(color) {
-      document.body.style.background = color;
+         if (document.body.style.background == color){
+            document.body.style.background = white
+         }
+         else{
+            document.body.style.background = color
+         }
+      ;
       }
    </script>
 </body>
