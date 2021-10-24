@@ -2,15 +2,20 @@
 
 
 
-function chBackcolor(color) {
-   document.body.style.background = color;
-}
 
 </head>
 <body>
 
-<p>cobalt blue 
+   <p>cobalt blue 
   /ˈˌkōˌbôlt ˈblo͞o/</p>
 
+   <button type="button" onclick="chBackcolor('blue')">Press me!</button>
+   
+   <script>
+      
+      function chBackcolor(color) {
+      document.body.style.background = color;
+      }
+   </script>
 </body>
-<button type="button" onclick="chBackcolor('blue')">Press me!</button>
+
