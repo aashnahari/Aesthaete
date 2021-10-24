@@ -9,10 +9,11 @@
    <p>cobalt blue 
   /ˈˌkōˌbôlt ˈblo͞o/</p>
 
-   <button type="button" onclick="chBackcolor(new Color(51,153,255))">Press me!</button>
+   <button type="button" onclick="chBackcolor(51,153,255)">Press me!</button>
    
    <script>
       function chBackcolor(color) {
+         color = new Color color;
          if (document.body.style.background == 'white'){
             document.body.style.background = color;
          }
