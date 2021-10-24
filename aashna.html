@@ -8,18 +8,15 @@
 
    <p>cobalt blue 
   /ˈˌkōˌbôlt ˈblo͞o/</p>
+ 
+
+   <button type="button" onclick= "chBackcolor()">Change Background</button>
    
    <script>
       import java.awt.Color;
-      "cobaltBlue" = new Color(51,153,255);
-   </script>
-
-   <button type="button" onclick= "chBackcolor('cobaltBlue')">Tomato</button>
-   
-   <script>
-      function chBackcolor(color) {
+      function chBackcolor() {
          if (document.body.style.background == 'white'){
-            document.body.style.background = color;
+            document.body.style.background = new Color(51,153,255);
          }
          else{
             document.body.style.background = 'white';
