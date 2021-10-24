@@ -9,6 +9,7 @@
    <p>cobalt blue 
   /ˈˌkōˌbôlt ˈblo͞o/</p>
    <script>
+      import java.awt.Color;
       myJFrame.getContentPane().setBackground( Color.red );
    </script>
  
@@ -16,11 +17,8 @@
    <button type="button" onclick= "chBackcolor()">Change Background</button>
    
    <script>
-      function chBackcolor() {
-         import java.awt.Color;
-         public static final Color cobaltBlue = new Color(51,153,255);
          if (document.body.style.background == 'white'){
-            document.body.style.background = 'cobaltBlue';
+            document.body.style.background = rgb(51,153,255);
          }
          else{
             document.body.style.background = 'white';
