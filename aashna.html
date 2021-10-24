@@ -9,9 +9,11 @@
    <p>cobalt blue 
   /ˈˌkōˌbôlt ˈblo͞o/</p>
 
-   <button type="button" onclick="chBackcolor('blue')">Press me!</button>
+   <button type="button" onclick="chBackcolor('cobaltBlue')">Press me!</button>
    
    <script>
+      import java.awt.Color;
+      public static final Color cobaltBlue = new Color(51,153,255);
       
       function chBackcolor(color) {
          if (document.body.style.background == 'white'){
